@@ -1,1 +1,1 @@
-# DRkmeans12
+his Kmeans model has been trained with l2-normalized electricity consumption data from ASM. The instructions below are meant to guide you through deploying the model on a server with MLFlow. They also contain an example of how to use the model after deployment. Consult the clusterCenters.png file for a visual representation of each of the 12 clusters.
