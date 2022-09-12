@@ -4,7 +4,7 @@ The instructions below are meant to guide you through deploying the model on a s
 
 Instructions:
 1. Set up a new virtual environment with: python3 -m venv .venv
-2. Activate virtual environment: ./venv/bin/activate
+2. Activate virtual environment: ./.venv/bin/activate
 3. Install requirements: pip3 install -r requirements.txt
 4. Serve the model. It will be listening on port 4000:
 mlflow models serve -m kmeansEuclidean12 --no-conda -p 4000
