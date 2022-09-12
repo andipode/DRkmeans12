@@ -1,10 +1,11 @@
 This Kmeans model has been trained with l2-normalized electricity consumption data from ASM. The instructions below are meant to guide you through deploying the model on a server with MLFlow. They also contain an example of how to use the model after deployment. Consult the clusterCenters.png file for a visual representation of each of the 12 clusters.
 Instructions:
 1. Set up a new virtual environment with: python3 -m venv .venv
-2. Install requirements: pip3 install -r requirements.txt
-3. Serve the model. It will be listening on port 4000:
+2. Activate virtual environment: ./venv/bin/activate
+3. Install requirements: pip3 install -r requirements.txt
+4. Serve the model. It will be listening on port 4000:
 mlflow models serve -m kmeansEuclidean12 --no-conda -p 4000
-4. Use curl to query the model. It should receive a JSON file containing an array of 1x24 vectors (which correspond to time series of normalised electricity consumption) and respond by assigning each time series to a cluster
+5. Use curl to query the model. It should receive a JSON file containing an array of 1x24 vectors (which correspond to time series of normalised electricity consumption) and respond by assigning each time series to a cluster
 
 Example Query:
 
