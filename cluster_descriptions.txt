@@ -1,1 +1,11 @@
-
+Cluster 0: Sharp morning peak (8 to 10 am). Consists of load profiles from both companies (57%) and residential users (36%).
+Cluster 1: Sharp early morning peak (4 to 6 am). Load profiles mostly belong to companies (66%). Some load profiles from residential users (17%) and EV charging stations (17%)
+Cluster 2 & 8: PV generation. Generation peaks earlier for cluster 8 (around 10 am) than cluster 12 (around 12 pm). Load profiles only belong to companies.
+Cluster 3: Primary peak in the morning (~8 am) with a secondary peak in the afternoon (~3 pm). More companies (63%) than residential users (29%).
+Cluster 4: Activity the whole day, with a noticable peak in the afternoon (~5 pm). Mostly residential users (82%). The peak in the afternoon is probably a result of occupants coming home from work.
+Cluster 5: No sharp peaks. Either because there wasn't any activity (ie. empty house) or because consumption is more or less constant throughout the day (the local university, 14% of profiles in the cluster).
+Cluster 6: Evening peak (~8 pm). Consists mostly of load profiles from residential users (94%). The evening peak is probably a result of occupants coming home from work.
+Cluster 7: Late morning peak (~11 am). Both companies and residential users (40 and 42% respectively). Also contains profiles from the EV charging stations (8%) and a swimming pool (6%).
+Cluster 9: Dip in consumption at times when it's sunny (from 5am to 6pm). Load profiles belong to prosumers (both consumption and generation). 37% of all load profiles in the cluster come from a substation (BBB6100). The rest from companies (43%) and some residential users (18%).
+Cluster 10: Activity the whole day except during the night (0-5 am). Consumption peaks at noon - early afternoon (12pm to 4pm). Profiles mostly belong to residential users (66%).
+Cluster 11: Same as cluster 6 (97% residential users) but with a sharper, earlier peak. 
